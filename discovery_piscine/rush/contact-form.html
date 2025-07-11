@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row" style="margin-top: 50px;">
 			<div class="col">
-				<div class="panel panel-default" style="border-radius: 5%; box-shadow: 1px 2px 3px #0670d4;">
+				<div class="panel panel-default" style="border-radius: 2%; box-shadow: 1px 2px 3px #0670d4;">
 					 <div class="panel-body" style="padding: 40px; ">
 						<h1 class="contact-title" style="color:#0670d4;">Get In Touch</h1>
 						<p class="contact-description">Send us a message through this form!</p>
@@ -33,7 +33,11 @@
 							</div>
 							<div class="form-group">
 								<label for="subject" class="sr-only">Subject</label>
-								<input type="text" class="form-control" id="subject" placeholder="Subject">
+								<select class="form-control" id="subject">
+									<option value="general">Select a Hero</option>
+									<option value="general">Batman</option>
+									<option value="support">Superman</option>
+								</select>
 							</div>
 							<div class="form-group">
 								<label for="message" class="sr-only">Message</label>
