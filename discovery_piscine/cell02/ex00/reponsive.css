@@ -1,0 +1,30 @@
+		html, body
+		{
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		table
+		{
+			border-collapse:collapse;
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+		}
+		td
+		{
+			width: 20%;
+			border: 1px solid black;
+			font-weight:lighter;
+			padding: 15px;
+		}
+		.cell1 {
+			background-color: silver;
+		}
+		.cell2 {
+			background-color: rgb(3, 3, 115);
+		}
+		body
+		{
+			background-color: rgba(153, 8, 8, 0.87);
+		}
